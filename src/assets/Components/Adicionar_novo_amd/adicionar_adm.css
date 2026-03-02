@@ -1,0 +1,78 @@
+.add-admin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.add-admin-title {
+  color: #c44cff;
+  font-size: 34px;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 350px;
+  text-align: center;
+  color: white;
+}
+
+.form-group input {
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #4c2a6d;
+  color: white;
+  text-align: center;
+}
+
+.id-box {
+  display: flex;
+  gap: 10px;
+}
+
+.id-box button {
+  background: #b400ff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.upload-box {
+  cursor: pointer;
+}
+
+.upload-box img {
+  width: 200px;
+  border-radius: 15px;
+}
+
+.resultado-card {
+  width: 350px;
+  background: linear-gradient(90deg, #ff00ff, #6a00ff);
+  padding: 4px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resultado-card div {
+  background: #3a1f52;
+  border-radius: 12px;
+  padding: 15px;
+  color: white;
+  flex: 1;
+}
+
+.resultado-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}

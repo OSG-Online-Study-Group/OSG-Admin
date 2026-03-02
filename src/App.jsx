@@ -22,6 +22,8 @@ import { RemoverPerguntas } from "./assets/Components/Excluir_perguntas/excluir_
 import { GerenciarPerguntas } from "./assets/Components/Gerenciar_Perguntas/gerenciar_Perguntas";
 
 // Administração
+
+import { AdicionarAdmin } from "./assets/Components/Adicionar_novo_amd/adicionar_adm";
 import { BanirUsuario } from "./assets/Components/Ban/ban";
 import { Denuncias } from "./assets/Components/Denuncias/denuncias";
 
@@ -60,6 +62,7 @@ function App() {
         <Route path="/gerenciar-perguntas" element={<GerenciarPerguntas />} />
 
         {/* Administração */}
+        <Route path="/adicionar-admin" element={<AdicionarAdmin />} />
         <Route path="/banir-usuario" element={<BanirUsuario />} />
         <Route path="/denuncias" element={<Denuncias />} />
 
