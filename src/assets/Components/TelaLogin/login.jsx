@@ -1,4 +1,4 @@
-// src/assets/Components/Tela_Login/login.jsx
+// src/assets/Components/TelaLogin/login.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth, db } from "../../../firebase"; // caminho do seu firebase.js
@@ -8,7 +8,7 @@ import { doc, getDoc } from "firebase/firestore";
 import "./login.css"; // mantém seu CSS intacto
 import logo from "../../icons/icon_Osg.png";
 
-export const Tela_login = () => {
+export const TelaLogin = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");

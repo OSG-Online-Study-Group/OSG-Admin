@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./gerenciar_Perguntas.css";
+import "./gerenciarPerguntas.css";
 
 import addPerg from "../../icons/icon_adicionarPergunta.png";
 import editPerg from "../../icons/icon_editarPergunta.png";

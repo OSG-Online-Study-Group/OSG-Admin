@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./excluir_materias.css";
+import "./excluirSubmat.css";
 
-export const RemoverMaterias = () => {
+export const Removersubmat = () => {
   const [materiaSelecionada, setMateriaSelecionada] = useState(null);
 
   const materias = [
@@ -18,16 +18,17 @@ export const RemoverMaterias = () => {
       <header className="admin-header">
         <h1>Online study group</h1>
 
-        <div className="admin-search">
-          <input type="text" placeholder="Pesquisar..." />
-        </div>
+        <input
+          className="admin-search"
+          type="text"
+          placeholder="Pesquisar..."
+        />
 
         <div className="admin-user">👤</div>
       </header>
 
       {/* CONTEÚDO */}
       <main className="admin-content">
-
         <div className="remover-card">
 
           <h2 className="remover-title">Remover Matérias</h2>
@@ -41,7 +42,7 @@ export const RemoverMaterias = () => {
           </select>
 
           <p className="remover-subtitle">
-            selecione a pergunta que deseja excluir
+            selecione a matéria que deseja excluir
           </p>
 
           <div className="remover-list">
@@ -61,7 +62,6 @@ export const RemoverMaterias = () => {
 
           <button className="remover-btn">Confirmar</button>
         </div>
-
       </main>
     </div>
   );

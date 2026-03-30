@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./editar_perguntas.css";
+import "./editarPerguntas.css";
 
 export const EditarPerguntas = () => {
   const navigate = useNavigate();

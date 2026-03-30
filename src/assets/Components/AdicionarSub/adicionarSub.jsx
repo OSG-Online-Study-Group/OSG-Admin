@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./adicionar_sub.css";
+import "./adicionarSub.css";
 
-export const Adicionar_sub = () => {
+export const AdicionarSub = () => {
   const [submateria, setSubmateria] = useState("");
 
   return (

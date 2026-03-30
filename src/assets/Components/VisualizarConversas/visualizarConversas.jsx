@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./visualizar_conversas.css";
+import "./visualizarConversas.css";
 
 import user from "../../icons/icon_ig.png";
 import contato1 from "../../icons/icon_pessoa1.png";

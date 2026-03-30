@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./gerenciar_materias.css";
+import "./gerenciarMaterias.css";
 
 import addMat from "../../icons/icon_gerenciarMaterias.png";
 import addSub from "../../icons/icon_adicionarSub.png";
@@ -49,7 +49,7 @@ export const GerenciarMateriais = () => {
 
           <div
             className="materiais-card"
-            onClick={() => navigate("/Adicionar_sub")}
+             onClick={() => navigate("/adicionar-sub")}
           >
             <img src={addSub} alt="" />
             <span>Adicionar Submaterias</span>

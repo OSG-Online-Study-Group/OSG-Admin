@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Home.css";
+import "./home.css";
 
 import banner from "../../icons/icon_home.png";
 import monitor from "../../icons/icon_monitoramento.png";

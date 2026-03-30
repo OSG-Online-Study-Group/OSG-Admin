@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./monitorar_coversas.css";
+import "./monitorarConversas.css";
 
 import addPerg from "../../assets/icons/usericon.png";
 import editPerg from "../../assets/icons/usericon.png";

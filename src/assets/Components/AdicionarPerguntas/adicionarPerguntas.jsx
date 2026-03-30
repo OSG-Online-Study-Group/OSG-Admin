@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./adicionar_perguntas.css";
+import "./adicionarPerguntas.css";
 
 export const AdicionarPergunta = () => {
   const [pergunta, setPergunta] = useState("");
