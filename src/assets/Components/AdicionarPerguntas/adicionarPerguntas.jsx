@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./adicionarPerguntas.css";
 
-export const AdicionarPergunta = () => {
+export const AdicionarPerguntas = () => {
   const [pergunta, setPergunta] = useState("");
   const [alternativas, setAlternativas] = useState({
     A: "",

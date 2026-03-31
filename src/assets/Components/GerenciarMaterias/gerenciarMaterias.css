@@ -56,24 +56,24 @@ body {
   cursor: pointer;
 }
 
-.materiais-page {
+.materias-page {
   padding: 60px;
   text-align: center;
 }
 
-.materiais-title {
+.materias-title {
   color: #b42bff;
   font-size: 40px;
   margin-bottom: 50px;
 }
 
-.materiais-actions {
+.materias-actions {
   display: flex;
   justify-content: center;
   gap: 60px;
 }
 
-.materiais-card {
+.materias-card {
   width: 200px;
   height: 200px;
   background: #6a3a94;
@@ -87,16 +87,16 @@ body {
   transition: 0.3s;
 }
 
-.materiais-card:hover {
+.materias-card:hover {
   transform: translateY(-6px);
   background: #7a47a8;
 }
 
-.materiais-card img {
+.materias-card img {
   width: 80px;
 }
 
-.materiais-card span {
+.materias-card span {
   font-size: 16px;
   font-weight: 500;
 }

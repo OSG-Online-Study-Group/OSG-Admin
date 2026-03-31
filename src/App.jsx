@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Home e Login
 import { Home } from "./assets/Components/Home/home";
-import { TelaLogin } from "./assets/Components/TelaLogin/login";
+import { Login } from "./assets/Components/Login/login";
 
 // Perfil
 import { Perfil } from "./assets/Components/Perfil/perfil";
@@ -12,13 +12,13 @@ import { Perfil } from "./assets/Components/Perfil/perfil";
 // Matérias
 import { AdicionarMateria } from "./assets/Components/AdicionarMateria/adicionarMateria";
 import { AdicionarSub } from "./assets/Components/AdicionarSub/adicionarSub";
-import { RemoverMaterias } from "./assets/Components/ExcluirMaterias/excluirMaterias";
-import { GerenciarMateriais } from "./assets/Components/GerenciarMaterias/gerenciarMaterias";
+import { RemoverMaterias } from "./assets/Components/RemoverMaterias/removerMaterias";
+import { GerenciarMaterias } from "./assets/Components/GerenciarMaterias/gerenciarMaterias";
 
 // Perguntas
-import { AdicionarPergunta } from "./assets/Components/AdicionarPerguntas/adicionarPerguntas";
+import { AdicionarPerguntas } from "./assets/Components/AdicionarPerguntas/adicionarPerguntas";
 import { EditarPerguntas } from "./assets/Components/EditarPerguntas/editarPerguntas";
-import { RemoverPerguntas } from "./assets/Components/ExcluirPerguntas/excluirPerguntas";
+import { RemoverPerguntas } from "./assets/Components/RemoverPerguntas/removerPerguntas";
 import { GerenciarPerguntas } from "./assets/Components/GerenciarPerguntas/gerenciarPerguntas";
 
 // Administração
@@ -38,10 +38,10 @@ function App() {
       <Routes>
 
         {/* ROTA INICIAL (LOGIN) */}
-        <Route path="/" element={<TelaLogin />} />
+        <Route path="/" element={<Login />} />
 
         {/* Login */}
-        <Route path="/login" element={<TelaLogin />} />
+        <Route path="/login" element={<Login />} />
 
         {/* Home */}
         <Route path="/home" element={<Home />} />
@@ -53,10 +53,10 @@ function App() {
         <Route path="/adicionar-materia" element={<AdicionarMateria />} />
         <Route path="/adicionar-sub" element={<AdicionarSub />} />
         <Route path="/remover-materias" element={<RemoverMaterias />} />
-        <Route path="/gerenciar-materiais" element={<GerenciarMateriais />} />
+        <Route path="/gerenciar-materias" element={<GerenciarMaterias />} />
 
         {/* Perguntas */}
-        <Route path="/adicionar-pergunta" element={<AdicionarPergunta />} />
+        <Route path="/adicionar-perguntas" element={<AdicionarPerguntas />} />
         <Route path="/editar-perguntas" element={<EditarPerguntas />} />
         <Route path="/remover-perguntas" element={<RemoverPerguntas />} />
         <Route path="/gerenciar-perguntas" element={<GerenciarPerguntas />} />

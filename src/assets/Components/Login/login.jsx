@@ -8,7 +8,7 @@ import { doc, getDoc } from "firebase/firestore";
 import "./login.css"; // mantém seu CSS intacto
 import logo from "../../icons/icon_Osg.png";
 
-export const TelaLogin = () => {
+export const Login = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");

@@ -6,7 +6,7 @@ import addMat from "../../icons/icon_gerenciarMaterias.png";
 import addSub from "../../icons/icon_adicionarSub.png";
 import removeMat from "../../icons/icon_excluirPergunta.png";
 
-export const GerenciarMateriais = () => {
+export const GerenciarMaterias = () => {
   const navigate = useNavigate();
 
   return (
@@ -34,13 +34,13 @@ export const GerenciarMateriais = () => {
       </header>
 
       {/* CONTEÚDO */}
-      <main className="materiais-page">
-        <h1 className="materiais-title">Gerenciar Materiais</h1>
+      <main className="materias-page">
+        <h1 className="materias-title">Gerenciar Materias</h1>
 
-        <div className="materiais-actions">
+        <div className="materias-actions">
 
           <div
-            className="materiais-card"
+            className="materias-card"
             onClick={() => navigate("/adicionar-materia")}
           >
             <img src={addMat} alt="" />
@@ -48,7 +48,7 @@ export const GerenciarMateriais = () => {
           </div>
 
           <div
-            className="materiais-card"
+            className="materias-card"
              onClick={() => navigate("/adicionar-sub")}
           >
             <img src={addSub} alt="" />
@@ -56,7 +56,7 @@ export const GerenciarMateriais = () => {
           </div>
 
           <div
-            className="materiais-card"
+            className="materias-card"
             onClick={() => navigate("/remover-materias")}
           >
             <img src={removeMat} alt="" />

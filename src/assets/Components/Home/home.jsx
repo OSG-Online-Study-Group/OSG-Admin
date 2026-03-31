@@ -5,7 +5,7 @@ import "./home.css";
 import banner from "../../icons/icon_home.png";
 import monitor from "../../icons/icon_monitoramento.png";
 import perguntas from "../../icons/icon_adicionarPergunta.png";
-import materiais from "../../icons/icon_adicionarSub.png";
+import materias from "../../icons/icon_adicionarSub.png";
 import banir from "../../icons/icon_monitoramento.png";
 import admin from "../../icons/icon_novoAdm.png";
 
@@ -64,13 +64,13 @@ export const Home = () => {
             <span>Gerenciar Perguntas</span>
           </div>
 
-          {/* MATERIAIS */}
+          {/* MATERIAS */}
           <div
             className="admin-action"
-            onClick={() => navigate("/gerenciar-materiais")}
+            onClick={() => navigate("/gerenciar-materias")}
           >
-            <img src={materiais} alt="" />
-            <span>Gerenciar Materiais</span>
+            <img src={materias} alt="" />
+            <span>Gerenciar Materias</span>
           </div>
 
           {/* BANIR */}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./excluirMaterias.css";
+import "./removerMaterias.css";
 
 export const RemoverMaterias = () => {
   const [materiaSelecionada, setMateriaSelecionada] = useState(null);

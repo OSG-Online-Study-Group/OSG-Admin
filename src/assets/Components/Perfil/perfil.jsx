@@ -40,7 +40,7 @@ export const Perfil = () => {
       <div className="stats">
         <div className="stat">
           <h3>5</h3>
-          <span>Materiais</span>
+          <span>Materias</span>
         </div>
 
         <div className="stat">
