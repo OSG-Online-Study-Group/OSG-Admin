@@ -64,13 +64,13 @@ export const Home = () => {
             <span>Gerenciar Perguntas</span>
           </div>
 
-          {/* MATERIAS */}
+          {/* GRUPOS */}
           <div
             className="admin-action"
-            onClick={() => navigate("/gerenciar-materias")}
+            onClick={() => navigate("/gerenciar-grupos")}
           >
             <img src={materias} alt="" />
-            <span>Gerenciar Materias</span>
+            <span>Gerenciar Grupos</span>
           </div>
 
           {/* BANIR */}

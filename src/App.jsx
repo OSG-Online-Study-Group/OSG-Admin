@@ -21,6 +21,10 @@ import { EditarPerguntas } from "./assets/Components/EditarPerguntas/editarPergu
 import { RemoverPerguntas } from "./assets/Components/RemoverPerguntas/removerPerguntas";
 import { GerenciarPerguntas } from "./assets/Components/GerenciarPerguntas/gerenciarPerguntas";
 
+//Grupos
+import { GerenciarGrupos } from "./assets/Components/GerenciarGrupos/gerenciarGrupos";
+import { DetalhesGrupo } from "./assets/Components/GerenciarGrupos/detalhesGrupo";
+
 // Administração
 
 import { AdicionarAdmin } from "./assets/Components/AdicionarAdmin/adicionarAdmin";
@@ -48,6 +52,10 @@ function App() {
 
         {/* Perfil */}
         <Route path="/perfil" element={<Perfil />} />
+
+        {/* Grupos */}
+        <Route path="/gerenciar-grupos" element={<GerenciarGrupos />} />
+        <Route path="/grupo/:groupId" element={<DetalhesGrupo />} />
 
         {/* Matérias */}
         <Route path="/adicionar-materia" element={<AdicionarMateria />} />
